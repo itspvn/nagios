@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo amazon-linux-extras install epel -y
 if [ ! -d "nagios" ]; then
   mkdir nagios
 fi
